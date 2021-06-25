@@ -27,4 +27,5 @@ body:before {
   font-family: "Six Caps", sans-serif;
   font-size: 10rem;
   line-height: 10.5rem;
+  pointer-events: none;
 }/*# sourceMappingURL=main.css.map */

@@ -51,6 +51,9 @@ p {
   width: 30%;
   height: 100vh;
   z-index: -1;
-  background: #dcdbc9;
   right: 0;
+  background: url("../assets/girl.jpg");
+  background-size: cover;
+  mix-blend-mode: luminosity;
+  opacity: 0.17;
 }/*# sourceMappingURL=main.css.map */

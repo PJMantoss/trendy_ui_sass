@@ -25,4 +25,12 @@ body:before {
   line-height: 10.5rem;
   pointer-events: none;
   position: relative;
+}
+.title:before {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 3px;
+  left: -15%;
+  top: 15%;
 }/*# sourceMappingURL=main.css.map */

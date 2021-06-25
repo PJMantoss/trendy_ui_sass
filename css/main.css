@@ -44,4 +44,13 @@ p {
   font-family: "Playfair Display SC", serif;
   font-size: 1.5rem;
   margin-top: 2em;
+}
+
+.waterbg {
+  position: absolute;
+  width: 30%;
+  height: 100vh;
+  z-index: -1;
+  background: #dcdbc9;
+  right: 0;
 }/*# sourceMappingURL=main.css.map */

@@ -1,2 +1,7 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 
-/*# sourceMappingURL=main.css.map *//*# sourceMappingURL=main.css.map */
+body {
+  background: #ecebda;
+}/*# sourceMappingURL=main.css.map */

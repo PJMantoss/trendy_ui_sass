@@ -7,4 +7,6 @@ body {
   display: grid;
   height: 100vh;
   place-content: center;
+  margin: 0;
+  overflow: hidden;
 }/*# sourceMappingURL=main.css.map */

@@ -20,13 +20,14 @@ body {
     }
 }
 
-.container {
-    margin-left: -50%;
-}
+// .container {
+//     margin-left: -50%;
+// }
 
 .title{
     font-family: 'Six Caps', sans-serif;
     font-size: 10rem;
     line-height: 10.5rem;
     pointer-events: none;
+    position: relative;
 }

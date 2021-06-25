@@ -35,6 +35,23 @@
             image2: './assets/image2.jpeg',
             displacementImage: './assets/image3.jpeg'
         });
+
+        let title = document.querySelector('.container');
+        let img = document.querySelector('.img');
+        let cursorCircle = document.querySelector('.cursor');
+
+        let cursor = {
+            x: 0,
+            y: 0
+        }
+
+        document.addEventListener('mousemove', (e) => {
+            cursor.x = -e.clientX * .1;
+            cursor.y = -e.clientY * .1;
+
+            img.style.transform = `translate(${cursor.x}px, ${cursor.y}px)`;
+            cursorCircle.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`
+        })
     </script>
 </body>
 </html>

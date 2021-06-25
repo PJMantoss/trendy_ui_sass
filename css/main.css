@@ -77,4 +77,16 @@ p {
   border: 1px solid rgba(0, 0, 0, 0.4);
   margin-left: -1.5em;
   margin-top: -1.5em;
+}
+
+.letter {
+  display: inline-block;
+  line-height: 1em;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  transform: translateY(-50px);
+}
+
+.img:hover {
+  opacity: 0.5;
 }/*# sourceMappingURL=main.css.map */

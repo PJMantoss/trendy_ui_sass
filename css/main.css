@@ -35,9 +35,9 @@ body:before {
   left: -15%;
   top: 15%;
 }
-.title .title-1, .title .title-2 {
+.title .title-2, .title .title-3 {
   position: relative;
-  z-index: 200;
+  z-index: 2;
 }
 
 p {
@@ -56,4 +56,14 @@ p {
   background-size: cover;
   mix-blend-mode: luminosity;
   opacity: 0.17;
+}
+
+.img {
+  background: green;
+  width: 16em;
+  height: 27em;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  z-index: 1;
 }/*# sourceMappingURL=main.css.map */

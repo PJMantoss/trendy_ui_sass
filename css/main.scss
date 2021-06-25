@@ -41,9 +41,9 @@ body {
         top: 15%;
     }
 
-    .title-1, .title-2 {
+    .title-2, .title-3 {
         position: relative;
-        z-index: 200;
+        z-index: 2;
     }
 }
 
@@ -63,4 +63,14 @@ p {
     background-size: cover;
     mix-blend-mode: luminosity;
     opacity: 0.17;
+}
+
+.img {
+    background: green;
+    width: 16em;
+    height: 27em;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 1;
 }

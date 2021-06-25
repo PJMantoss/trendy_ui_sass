@@ -34,9 +34,21 @@ body {
     &:before{
         content: '';
         position: absolute;
+        background: black;
         width: 10%;
         height: 3px;
         left: -15%;
         top: 15%;
     }
+
+    .title-1, .title-2 {
+        position: relative;
+        z-index: 200;
+    }
+}
+
+p {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.5rem;
+    margin-top: 2em;
 }

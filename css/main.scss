@@ -66,11 +66,11 @@ p {
 }
 
 .img {
-    background: green;
     width: 16em;
     height: 27em;
     position: absolute;
     top: 30%;
     left: 30%;
     z-index: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }

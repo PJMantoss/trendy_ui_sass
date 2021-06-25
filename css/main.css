@@ -59,11 +59,12 @@ p {
 }
 
 .img {
-  background: green;
   width: 16em;
   height: 27em;
   position: absolute;
   top: 30%;
   left: 30%;
   z-index: 1;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }/*# sourceMappingURL=main.css.map */
